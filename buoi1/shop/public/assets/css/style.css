@@ -1,0 +1,10 @@
+/* CSS tuy chinh; Bootstrap 5 duoc nap tu CDN trong layout. */
+:root { --shop-blue: #1769aa; --shop-bg: #f5f7fb; }
+body { background: var(--shop-bg); color: #243044; }
+.navbar-brand { letter-spacing: .4px; font-size: 1.35rem; }
+.hero { background: linear-gradient(120deg, #e7f2ff, #f7fbff 60%, #e9f8f1); border: 1px solid #dce9f7; }
+.hero h1 { color: #173b65; }
+.product-card { border: 0; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 16px rgba(24, 48, 80, .07); transition: transform .18s ease, box-shadow .18s ease; }
+.product-card:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(24, 48, 80, .13); }
+.card-img-top { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; background: #eceff3; }
+footer { letter-spacing: .2px; }
