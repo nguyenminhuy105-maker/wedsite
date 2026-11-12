@@ -1,0 +1,1 @@
+<div class="alert alert-danger"><h2>403 - Không có quyền truy cập</h2><p>Tài khoản của bạn không được phép xem trang này.</p><a href="<?= e(base_url()) ?>">Về trang chủ</a></div>
